@@ -20,7 +20,7 @@ reg = gpio_input_get(); // Data should be stable now
 
 ```
 
-replace with this
+Replace with this
 
 ```cpp
 reg = REG_READ(GPIO_IN_REG); // Read three times to allow for bus access time
@@ -28,3 +28,9 @@ reg = REG_READ(GPIO_IN_REG);
 reg = REG_READ(GPIO_IN_REG); // Data should be stable now
 ```
 
+## Todo:
+- ESPNOW
+- Add icons
+- Add some designs
+- Try graphs
+- Try touch
